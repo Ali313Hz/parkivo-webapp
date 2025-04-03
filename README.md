@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
-
-First, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Desarrollo componentes parkivo-webapp
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Landing-Page
+## 1. Componente_Header
+### 1.1. Componente_Imagen
+### 1.2. Componente_Botón
+## 2. Componente_Body
+### 2.1. Componente_Background
+### 2.2. Compontente_Búsqueda
+#### 2.2.1. Compontente_EntradaTexto
+#### 2.2.2. Compontente_Botón
 
-## Learn More
+# Mapa-Sin-Login
+## 1. Componente_Header
+### 1.1. Componente_Imagen
+### 1.2. Componente_Botón
+## 2. Componente_Body
+### 2.1. Componente_Background
+### 2.2. Compontente_Búsqueda
+#### 2.2.1. Compontente_EntradaTexto
+#### 2.2.2. Compontente_Botón
 
-To learn more about Next.js, take a look at the following resources:
+# Login
+## 1. Componente_Header
+## 2. Componente_Body
+### 2.1. Componente_Background
+### 2.2. Compontente_InicioUsuario
+#### 2.2.1. Compontente_TituloEntradaTexto
+#### 2.2.2. Compontente_EntradaTexto
+#### 2.2.3. Componente_Botón
+#### 2.2.4. Componente_TextoHyperLink
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Register
+## 1. Componente_Header
+## 2. Componente_Body
+### 2.1. Componente_Background
+### 2.2. Compontente_InicioUsuario
+#### 2.2.1. Compontente_TituloEntradaTexto
+#### 2.2.2. Compontente_EntradaTexto
+#### 2.2.3. Componente_Botón
+#### 2.2.4. Componente_InformaciónAdicional
+##### 2.2.4.1. Componente_CheckBox
+##### 2.2.4.2. Compontente_EntradaTexto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Main-Page
+## 1. Componente_Header
+### 1.1. Componente_Imagen
+### 1.2. Componente_Botón
+## 2. Componente_Body
+### 2.1. Compontente_Búsqueda
+#### 2.1.1. Compontente_EntradaTexto
+#### 2.1.2. Compontente_Botón
+### 2.2. Compontente_Background
+### 2.3. Compontente_InfoGaraje
+#### 2.3.1. Componente_Imagen
+#### 2.3.2. Compontente_Descripción
 
-## Deploy on Vercel
+# Map-Logged
+## 1. Componente_Header
+### 1.1. Componente_Imagen
+### 1.2. Componente_Botón
+## 2. Componente_Body
+### 2.1. Compontente_Búsqueda
+#### 2.1.1. Compontente_EntradaTexto
+#### 2.1.2. Compontente_Botón
+### 2.2. Compontente_Background
+### 2.3. Compontente_InfoGaraje
+#### 2.3.1. Componente_Imagen
+#### 2.3.2. Compontente_Descripción
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Detalles
+## 1. Componente_Header
+### 1.1. Componente_Imagen
+### 1.2. Componente_Botón
+## 2. Componente_Body
+### 2.1. Componente_GarajePrincipal
+#### 2.1.1. Componente_Imagen
+#### 2.1.2. Componente_OtrasImagenes
+##### 2.1.2.1. Compontente_Imagen
+### 2.2. Componente_InformaciónAdicionalGaraje
+### 2.3. Componente_CalendarioGaraje
+### 2.4. Componente_OtrosGarajes
+#### 2.4.1. Compontente_InfoGaraje
+##### 2.4.1.1. Componente_Imagen
+##### 2.4.1.2. Compontente_Descripción
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Desarrollo UX-UI](Desarrollo%20UX-UI.drawio.png)
