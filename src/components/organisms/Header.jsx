@@ -1,17 +1,16 @@
 import { Logo } from "../atoms/Logo";
-import { NavLinks } from "../molecules/NavLinks";
 import { AuthButtons } from "../molecules/AuthButtons";
+import {Button} from "@/components/atoms/Button";
 
-export default function Header() {
+export default function Header({children}) {
   return (
     <header className="header">
-      <div className="header-container">
-        <Logo />
-        <div className="hidden md:block">
-          <NavLinks />
+        <div className="header-container">
+            <Logo />
+            <div className="header-buttons">
+                {children}
+            </div>
         </div>
-        <AuthButtons />
-      </div>
     </header>
   );
 }

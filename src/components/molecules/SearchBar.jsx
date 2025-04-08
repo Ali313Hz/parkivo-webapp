@@ -2,7 +2,7 @@ import { Input } from '../atoms/Input';
 
 export function SearchBar({ placeholder = "Busca tu garaje perfecto" }) {
   return (
-    <div className="hero-search">
+    <div className="search-bar">
       <Input
         placeholder={placeholder}
         icon={<SearchIcon />}
