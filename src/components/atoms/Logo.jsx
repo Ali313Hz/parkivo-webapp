@@ -1,11 +1,10 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export function Logo() {
   return (
-    <Link href="/" className="logo">
-      <span>PARK</span>
-      <span className="logo-highlight-blue">IV</span>
-      <span className="logo-highlight-light-blue">O</span>
-    </Link>
+      <div>
+          <Image src={"/logo.svg"} width={200} height={200} alt={"logo"}></Image>
+      </div>
   );
 }
