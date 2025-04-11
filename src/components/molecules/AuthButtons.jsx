@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Button } from '../atoms/Button';
+import { Button } from '../atoms/ButtonComponent';
 
 export function AuthButtons() {
   return (

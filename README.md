@@ -11,7 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 # Desarrollo componentes parkivo-webapp
 
 # Landing-Page
-## 1. Componente_Header
+## 1. HeaderComponent
 ### 1.1. Componente_Imagen
 ### 1.2. Componente_Botón
 ## 2. Componente_Body
@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 2.2.2. Compontente_Botón
 
 # Mapa-Sin-Login
-## 1. Componente_Header
+## 1. HeaderComponent
 ### 1.1. Componente_Imagen
 ### 1.2. Componente_Botón
 ## 2. Componente_Body
@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 2.2.2. Compontente_Botón
 
 # Login
-## 1. Componente_Header
+## 1. HeaderComponent
 ## 2. Componente_Body
 ### 2.1. Componente_Background
 ### 2.2. Compontente_InicioUsuario
@@ -41,7 +41,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 2.2.4. Componente_TextoHyperLink
 
 # Register
-## 1. Componente_Header
+## 1. HeaderComponent
 ## 2. Componente_Body
 ### 2.1. Componente_Background
 ### 2.2. Compontente_InicioUsuario
@@ -53,7 +53,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ##### 2.2.4.2. Compontente_EntradaTexto
 
 # Main-Page
-## 1. Componente_Header
+## 1. HeaderComponent
 ### 1.1. Componente_Imagen
 ### 1.2. Componente_Botón
 ## 2. Componente_Body
@@ -66,7 +66,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 2.3.2. Compontente_Descripción
 
 # Map-Logged
-## 1. Componente_Header
+## 1. HeaderComponent
 ### 1.1. Componente_Imagen
 ### 1.2. Componente_Botón
 ## 2. Componente_Body
@@ -79,7 +79,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 2.3.2. Compontente_Descripción
 
 # Detalles
-## 1. Componente_Header
+## 1. HeaderComponent
 ### 1.1. Componente_Imagen
 ### 1.2. Componente_Botón
 ## 2. Componente_Body

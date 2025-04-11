@@ -1,20 +1,12 @@
-import Header from "@/components/organisms/Header";
-import {Button} from "@/components/atoms/Button";
-import Image from "next/image";
 import {SearchBar} from "@/components/molecules/SearchBar";
 import Componente_InfoGaraje from "@/components/organisms/Componente_InfoGaraje";
+import HeaderComponent from "@/components/organisms/componente_header/HeaderComponent";
+import {mainPageButtons} from "@/components/molecules/button_component_types/ButtonTypesComponent";
 
 export default function MainPage({ children }) {
     return (
         <div>
-            <Header>
-                <div className={"header-nav"}>
-                    <Button variant={"secondary"}>Añade tu garaje</Button>
-                    <Button variant={"primary"}>
-                        <Image src="/perfil.svg" width={20} height={20}  alt={"Perfil"}/>
-                    </Button>
-                </div>
-            </Header>
+            <HeaderComponent transparent={false} buttonTypes={mainPageButtons} />
             <div className={"between-header-and-content"}>
                 <SearchBar />
             </div>
