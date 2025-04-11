@@ -6,9 +6,9 @@ import ButtonComponentTypes from "@/components/molecules/button_component_types/
 export default function Componente_Header({ transparent, buttonTypes }) {
   return (
     <header className={`${styles.header} ${transparent ? styles.headerTransparent : styles.headerColor}`}>
-      <div className="header-container">
+      <div className={`${styles.headerContainer}`}>
           <Logo />
-          <div className={"header-nav"}>
+          <div className={`${styles.headerNav}`}>
             <ButtonComponentTypes buttonTypes={buttonTypes} />
           </div>
       </div>
