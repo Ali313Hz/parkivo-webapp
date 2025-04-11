@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 import styles from "./Header.module.css";
-import { Logo } from "@/components/atoms/Logo";
+import { LogoComponent } from "@/components/atoms/LogoComponent";
 import ButtonComponentTypes from "@/components/molecules/button_component_types/ButtonTypesComponent";
 
 export default function Componente_Header({ transparent, buttonTypes }) {
   return (
     <header className={`${styles.header} ${transparent ? styles.headerTransparent : styles.headerColor}`}>
       <div className={`${styles.headerContainer}`}>
-          <Logo />
+          <LogoComponent />
           <div className={`${styles.headerNav}`}>
             <ButtonComponentTypes buttonTypes={buttonTypes} />
           </div>
