@@ -58,21 +58,6 @@ body {
   color: var(--secondary-color);
 }
 
-/* Logo Styles */
-.logo {
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.logo-highlight-blue {
-  color: var(--primary-color);
-}
-
-.logo-highlight-light-blue {
-  color: var(--primary-color-light);
-}
-
 .between-header-and-content{
     height: 5rem;
     width: 100%;
