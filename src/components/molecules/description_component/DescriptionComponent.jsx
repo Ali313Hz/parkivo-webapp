@@ -1,19 +1,21 @@
+import styles from "./Description.module.css";
 import TextComponent from "@/components/atoms/TextComponent";
 import StarRating from "@/components/StarRating";
 
-export default function Componente_Descripcion({titulo, valoracion, calle, precio}){
+
+export default function DescriptionComponent({titulo, valoracion, calle, precio}){
     return(
-        <div className="componente-descripcion">
-            <div className="componente-descripcion-izq">
+        <div className={`${styles.descripcion}`}>
+            <div className={`${styles.izq}`}>
                 <TextComponent texto={titulo}/>
             </div>
-            <div className="componente-descripcion-drch">
+            <div className={`${styles.drch}`}>
                 <StarRating rating={valoracion}/>
             </div>
-            <div className="componente-descripcion-izq">
+            <div className={`${styles.izq}`}>
                 <TextComponent texto={calle}/>
             </div>
-            <div className="componente-descripcion-drch">
+            <div className={`${styles.drch}`}>
                 <TextComponent texto={precio}/>
             </div>
         </div>

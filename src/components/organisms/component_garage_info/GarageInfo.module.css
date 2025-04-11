@@ -1,0 +1,21 @@
+.componenteGaraje {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.componenteGarajeImg{
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.componenteGarajeImg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

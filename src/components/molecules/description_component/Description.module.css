@@ -1,0 +1,20 @@
+.descripcion{
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.texto{
+    display:flex;
+}
+
+.izq{
+    display: flex;
+    justify-content: start;
+}
+
+.drch{
+    display: flex;
+    justify-content: end;
+}
