@@ -9,7 +9,7 @@ export default function Componente_Header({ transparent, buttonTypes }) {
       <div className={`${styles.headerContainer}`}>
           <LogoComponent />
           <div className={`${styles.headerNav}`}>
-            <ButtonComponentTypes buttonTypes={buttonTypes} />
+              {buttonTypes && <ButtonComponentTypes buttonTypes={buttonTypes} />}
           </div>
       </div>
     </header>

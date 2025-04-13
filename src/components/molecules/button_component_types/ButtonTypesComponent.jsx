@@ -2,6 +2,8 @@ import PropTypes from "prop-types";
 import Image from "next/image";
 import ButtonComponent from "@/components/atoms/button_component/ButtonComponent";
 
+export const noButtons = null;
+
 export const mainPageButtons = [
   {
     label: "Añade tu garaje",

@@ -1,14 +1,15 @@
-import {SearchBar} from "@/components/molecules/SearchBar";
+import { SearchBar } from "@/components/molecules/SearchBar";
 import HeaderComponent from "@/components/organisms/componente_header/HeaderComponent";
-import {mainPageButtons} from "@/components/molecules/button_component_types/ButtonTypesComponent";
+import { mainPageButtons } from "@/components/molecules/button_component_types/ButtonTypesComponent";
 import InfoGarageComponent from "@/components/organisms/component_garage_info/InfoGarageComponent";
+import { Search } from "@/components/search-bar";
 
 export default function MainPage({ children }) {
     return (
         <div>
             <HeaderComponent transparent={false} buttonTypes={mainPageButtons} />
             <div className={"between-header-and-content"}>
-                <SearchBar />
+                <Search />
             </div>
             <div className={"lista-garajes"}>
                 <InfoGarageComponent imagen={"/mock-db/1.jpg"} titulo={"Garaje en Madrid"} valoracion={4.5} calle={"Calle de la Libertad, 12"} precio={"100€"} />
