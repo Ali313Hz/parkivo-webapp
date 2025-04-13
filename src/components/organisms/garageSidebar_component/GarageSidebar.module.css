@@ -1,0 +1,22 @@
+.sidebar :global(.componenteGaraje) {
+    width: 100% !important;
+    height: 150px !important;
+    display: flex !important;
+    grid-template-rows: none !important;
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.sidebar :global(.componenteGarajeImg) {
+    height: 100%;
+    width: 40%;
+    flex-shrink: 0;
+}
+.sidebar :global(.componenteGarajeImg img) {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}

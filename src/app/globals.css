@@ -104,3 +104,21 @@ html, body {
   align-items: center;
   z-index: 1000;
 }
+
+.sidebar-map{
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  width: 370px;
+  z-index: 1000;
+  height: calc(3 * 170px + 2rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sidebar-map::-webkit-scrollbar {
+  display: none;
+}
