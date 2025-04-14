@@ -5,7 +5,7 @@ import {mapTypeConfigs} from "@/components/molecules/map_component_types/MapType
 
 
 const DynamicMap = dynamic(() => import("../../molecules/DynamicMap"), {
-    ssr: false,
+    ssr: true,
 });
 
 export default function Map({ mapType = "default", override = {} }) {

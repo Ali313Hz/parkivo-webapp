@@ -22,7 +22,14 @@ export default function DynamicMap({ center, zoom = 12, width = "100%", height =
                 const locations = await getLocations();
                 const start = center || locations[0];
 
-                mapInstance = L.map("map").setView([start.lat, start.lng], zoom);
+                mapInstance = L.map("map", {
+                    dragging: true,
+                    zoomControl: true,
+                    scrollWheelZoom: true,
+                    doubleClickZoom: true,
+                    boxZoom: true,
+                    touchZoom: true
+                }).setView([start.lat, start.lng], zoom);
                 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(mapInstance);
 
                 locations.forEach((loc) => {
